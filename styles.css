@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .einkaufsliste {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #einkaufsliste-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+  }
+  
+  #einkaufsliste-ul li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #einkaufsliste-ul li:last-child {
+    border-bottom: none;
+  }
+  
+  #einkaufsliste-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  #einkaufsliste-input, #stückzahl-input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #einkaufsliste-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #einkaufsliste-button:hover {
+    background-color: #555;
+  }
+  
+  #einkaufsliste-ul li span {
+    margin-right: 10px;
+  }
